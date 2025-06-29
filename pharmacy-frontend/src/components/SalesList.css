@@ -1,0 +1,72 @@
+.med-container {
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .med-container h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .top-controls {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  
+  .top-controls input {
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .top-controls button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .top-controls button:hover {
+    background-color: #45a049;
+  }
+  
+  .med-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .med-table th,
+  .med-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .med-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .med-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .med-table button {
+    background-color: red;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .med-table button:hover {
+    background-color: #cc0000;
+  }
+  

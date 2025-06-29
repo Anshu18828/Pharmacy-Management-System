@@ -1,0 +1,88 @@
+/* General styling */
+.user-session-duration-dashboard {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Top Controls Styling */
+.top-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.top-controls input,
+.top-controls button {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #007bff;
+  background-color: #e6f0ff;
+  color: #003366;
+  font-size: 14px;
+}
+
+.top-controls input {
+  width: 200px;
+}
+
+.top-controls button {
+  background-color: #6a5acd;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.top-controls button:hover {
+  background-color: #483d8b;
+}
+
+/* Table Styling */
+.session-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.session-table th,
+.session-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.session-table th {
+  background-color: #6a5acd; /* Lighter purple header */
+  color: white;
+  font-weight: bold;
+}
+
+.session-table tbody tr:hover {
+  background-color: #f1f1f1; /* Light gray on hover */
+}
+
+/* Action Button Styling */
+.session-table td button {
+  background-color: rgba(255, 0, 0, 0.1);  /* Light red background */
+  color: red;  /* Red cross color */
+  padding: 6px 12px;
+  border: 1px solid rgba(255, 0, 0, 0.3);  /* Light red border */
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.session-table td button:hover {
+  background-color: rgba(255, 0, 0, 0.2);  /* Slightly darker red on hover */
+  transform: scale(1.1);  /* Button scales up slightly on hover */
+}
+
+.session-table td button:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 0, 0, 0.5);  /* Red glow when focused */
+}

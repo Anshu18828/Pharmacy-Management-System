@@ -1,0 +1,33 @@
+/* NavigationTabs.css */
+.navigation-tabs {
+    display: flex;
+    justify-content: space-around;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .navigation-tab {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navigation-tab:hover {
+    background-color: #0056b3;
+  }
+  
+  .navigation-tab.active {
+    background-color: #0056b3;
+    border: 2px solid white;
+  }
+  
+  .navigation-tab:focus {
+    outline: none;
+  }
+  

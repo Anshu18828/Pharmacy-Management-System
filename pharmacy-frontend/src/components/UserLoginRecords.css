@@ -1,0 +1,76 @@
+/* User Login Records Table Styling */
+.user-login-records-dashboard {
+  margin: 20px;
+}
+
+.top-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.top-controls input {
+  padding: 8px;
+  width: 200px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.top-controls button {
+  padding: 8px 16px;
+  background-color: #6a5acd; /* Lighter purple */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.top-controls button:hover {
+  background-color: #483d8b; /* Darker purple when hovered */
+}
+
+.login-records-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.login-records-table th, .login-records-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+  font-size: 15px;
+}
+
+.login-records-table th {
+  background-color: #6a5acd; /* Light purple */
+  color: white;
+}
+
+.login-records-table tbody tr:hover {
+  background-color: #f0f8ff; /* Very light blue on hover */
+}
+
+.login-records-table button {
+  background-color: rgba(255, 0, 0, 0.1);  /* Lighter red background */
+  color: red;  /* Red cross color */
+  padding: 6px 12px;
+  border: 1px solid rgba(255, 0, 0, 0.3);  /* Light red border */
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.login-records-table button:hover {
+  background-color: rgba(255, 0, 0, 0.2);  /* Slightly darker red on hover */
+  transform: scale(1.1);  /* Button scales up slightly on hover */
+}
+
+.login-records-table button:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 0, 0, 0.5);  /* Red glow when focused */
+}

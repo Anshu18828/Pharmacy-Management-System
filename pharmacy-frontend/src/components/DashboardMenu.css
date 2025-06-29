@@ -1,0 +1,15 @@
+import React from 'react';
+import './DashboardMenu.css';
+
+function DashboardMenu({ setView }) {
+  return (
+    <div className="dashboard-menu">
+      <button onClick={() => setView('purchase')}>💊 Purchases</button>
+      <button onClick={() => setView('sales')}>📦 Sales</button>
+      <button onClick={() => setView('login')}>🔐 Login Records</button>
+      <button onClick={() => setView('session')}>⏱ Session Duration</button>
+    </div>
+  );
+}
+
+export default DashboardMenu;
